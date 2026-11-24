@@ -12,7 +12,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const CONFESSION =
-  "I dropped the production database to free up disk space, and the backups lived on the same disk.";
+  "The webhook failed, so I retried it until it worked. It worked 400 times. Every customer paid 400 times.";
 
 function checkLine(line: string): number {
   const length = Array.from(line).length;
